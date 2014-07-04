@@ -42,11 +42,11 @@ First let's create our HTML list and the filter input control :
 Finally create the Fast Live filter widget :
 
 ```php
-	<?= raoul2000\widget\fastlivefilter\FastLiveFilter::widget([
-			'inputSelector' => '#countryLivefilter',
-			'listSelector'  => '#countryList'
-		])
-	?>
+<?= raoul2000\widget\fastlivefilter\FastLiveFilter::widget([
+		'inputSelector' => '#countryLivefilter',
+		'listSelector'  => '#countryList'
+	])
+?>
 ```
 
 For more information on the plugin options, please refer to [fastlivefilter@github](https://github.com/awbush/jquery-fastLiveFilter).
