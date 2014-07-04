@@ -1,0 +1,31 @@
+{
+	"name" : "raoul2000/yii2-fastlivefilter-widget",
+	"description" : "Wrapper around the Fast Live Filter JQuery plugin",
+	"type" : "yii2-extension",
+	"keywords" : [
+		"yii2",
+		"extension",
+		"jquery",
+		"plugin",
+		"list",
+		"live",
+		"filter"
+	],
+	"license" : "BSD-3-Clause",
+	"authors" : [{
+			"name" : "Raoul",
+			"email" : "Raoul@email.com"
+		}
+	],
+	"require" : {
+		"yiisoft/yii2" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"raoul2000\\widget\\fastlivefilter\\" : ""
+		}
+	},
+	"support" : {
+		"issues" : "https://github.com/raoul2000/yii2-fastlivefilter-widget/issues"
+	}
+}
